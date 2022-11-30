@@ -1,34 +1,94 @@
 .main-header {
-    text-align: center;  
+    text-align: center;
+      font-family: Impact,sans-serif;
+      font-size: 30px;
+      
+      
+      
+}
+.sub-header{
+    text-align: center;
+    font-family: Impact,sans-serif;
+    font-size: 30px;
+}
+
+.gegr{
+    font-style: italic;
+    font-size: 20px;
+    
 }
 
 .kaffee-section {
     text-align: center; 
 }
 .card-background{
- width: 80%; 
- background-color: burlywood;
- margin-left: auto;
- margin-right: auto;
-  
-}
- 
-.background{
-    background-image: url(../bilder/beans.jpg)
-}
-
-.kaffee-itmes p{ 
-    display:inline-block;
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
     
 }
 
+.background{
+    padding: 20px;
+    background-image: url(../bilder/beans.jpg);
+    
+} 
+
+.kaffee-items p{ 
+    display:inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+
+} 
+
 .kaffee-geschmack{
     text-align: left;
-    width: 50%;
+    width: 75%;
     display: inline-block;
 }
 .kaffee-preis{
     text-align: right;
-    width: 50%;
+    width: 25%;
     display: inline-block;
+}
+
+.kuchen-items p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    
+}
+
+.desserts-geschmack{
+    text-align: left;
+    width: 75%;
+    display:inline-block
+}
+.desserts-preis{
+    text-align: right;
+    width: 25%;
+    display: inline-block;
+}
+
+
+.footer-links{
+    text-align: center; 
+}
+
+.hr-1{
+ height: 2px;
+ background-color: brown;  
+ border-color: brown; 
+ 
+}
+
+.pie-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
